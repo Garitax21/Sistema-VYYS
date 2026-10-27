@@ -10,7 +10,7 @@ Sitio web de **VYY'S**, tienda de ropa casual y semielegante de Costa Rica. Proy
 |---|---|
 | Yohel Garita | Gerente General |
 | Valeska Guevara | Asesora de ventas |
-| Yulissa Miranda | Encargada de bodega |
+| Yulissa Miranda | Ejecucion y parte soporte |
 
 ## Descripción
 
