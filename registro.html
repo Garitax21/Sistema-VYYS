@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VYY'S - Registro de usuarios.">
+    <title>Registro | VYY'S</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/auth.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="marca">
+            <img src="img/logo.png" alt="Logo de VYY'S">
+            <div>
+                <h1>VYY'S</h1>
+                <p>Elegancia para cada día.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <div class="login-caja">
+                <h2>Crear cuenta</h2>
+                <hr class="linea-dorada">
+                <p class="subtitulo">Regístrate para entrar al sitio de VYY'S.</p>
+
+                <form id="formRegistro" novalidate>
+                    <label for="regNombre">Nombre completo:</label>
+                    <input type="text" id="regNombre" name="nombre" autocomplete="name">
+                    <p class="msg-error" id="error-regNombre"></p>
+
+                    <label for="regCorreo">Correo electrónico:</label>
+                    <input type="email" id="regCorreo" name="correo" autocomplete="email">
+                    <p class="msg-error" id="error-regCorreo"></p>
+
+                    <label for="regUsuario">Usuario:</label>
+                    <input type="text" id="regUsuario" name="usuario" autocomplete="username">
+                    <p class="msg-error" id="error-regUsuario"></p>
+
+                    <label for="regClave">Contraseña:</label>
+                    <input type="password" id="regClave" name="clave" autocomplete="new-password">
+                    <p class="msg-error" id="error-regClave"></p>
+
+                    <label for="regClave2">Confirmar contraseña:</label>
+                    <input type="password" id="regClave2" name="clave2" autocomplete="new-password">
+                    <p class="msg-error" id="error-regClave2"></p>
+
+                    <label class="ver-clave" for="verClaveReg">
+                        <input type="checkbox" id="verClaveReg"> Mostrar contraseñas
+                    </label>
+
+                    <button type="submit">Registrarme</button>
+                </form>
+
+                <p class="enlace-alterno">¿Ya tienes cuenta? <a href="login.html">Inicia sesión</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>VYY'S</h3>
+        <p>Moda · Estilo</p>
+        <p class="copy">&copy; <span id="anio">2026</span> VYY'S. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -940,3 +940,61 @@ footer a:hover {
     padding: 8px 18px;
     font-size: 13px;
 }
+
+/* ---------- Login ---------- */
+.login-caja {
+    max-width: 420px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 12px 30px 30px;
+    border-radius: 14px;
+    border: 1px solid var(--crema-oscuro);
+    box-shadow: 0 4px 14px rgba(30, 59, 53, 0.08);
+    text-align: center;
+}
+
+.login-caja form {
+    text-align: left;
+}
+
+.login-caja button[type="submit"] {
+    width: 100%;
+    margin-top: 18px;
+}
+
+label.ver-clave {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+label.ver-clave input {
+    width: auto;
+}
+
+.item-sesion a {
+    color: var(--rosa);
+}
+
+@media (max-width: 480px) {
+    .login-caja {
+        padding: 6px 18px 24px;
+    }
+}
+
+.enlace-alterno {
+    margin: 22px 0 0;
+    font-size: 14px;
+}
+
+.enlace-alterno a {
+    color: var(--verde);
+    font-weight: 600;
+}
+
+.enlace-alterno a:hover {
+    color: var(--dorado);
+}
