@@ -188,7 +188,7 @@ button:hover {
     transform: scale(1.05);
     background-color: var(--dorado);
     border-color: var(--dorado);
-    color: #fff;
+    color: #bae7eb;
 }
 
 .boton-claro {
