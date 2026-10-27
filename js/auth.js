@@ -6,7 +6,7 @@
 
 // Usuarios base (los 3 integrantes)
 const USUARIOS = [
-    { usuario: "yohel",   correo: "yohel@vyys.cr",   clave: "Yohel2026*",   nombre: "Yohel Garita" },
+    { usuario: "yohelito",   correo: "yohel@vyys.cr",   clave: "Yohel2026*",   nombre: "Yohel Garita" },
     { usuario: "valeska", correo: "valeska@vyys.cr", clave: "Valeska2026*", nombre: "Valeska Guevara" },
     { usuario: "yulissa", correo: "yulissa@vyys.cr", clave: "Yulissa2026*", nombre: "Yulissa Miranda" }
 ];
